@@ -1,0 +1,160 @@
+html, body {
+    height: 100%;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+}
+.main-content{
+    flex : 1;
+}
+.app-container {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh; 
+}
+.navbar-flex{
+    display : flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    height : 80px;
+    background-color: #FFFFFF;
+    border-bottom: 3px solid #F3945F;
+    padding: 0 5%;
+}
+.logo-img img{
+    height : 50px;
+    transition: transform 0.3s ease-in-out;
+}
+.logo-img img:hover {
+    transform: scale(1.1);
+}
+.links-Div ol{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 50px;
+    list-style: none;
+    
+
+}
+.links-Div li {
+    color: rgb(119, 117, 117);
+    font-size: 1.2rem;
+    font-weight: 500;
+    cursor: pointer;
+    transition: color 0.3s ease-in-out;
+    text-decoration: none;
+}
+.link{
+    text-decoration: none;
+    color: rgb(119, 117, 117);
+    
+}
+.cart-icon{
+    font-size: larger;
+    /* display: flex;
+    flex-direction: row; */
+    /* justify-content: center;
+    align-items: center; */
+}
+
+
+
+/* ///////////////////////// */
+
+
+
+.footer {
+    background-color: #ffffff;
+    color: rgb(119, 117, 117);
+    padding: 10px 20px;
+    text-align: center;
+    border-top: #F3945F solid 3px;
+    width: 100%;
+    bottom: 0;
+}
+
+  
+  .footer-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  .footer-section {
+    margin-bottom: 20px;
+    width: 250px;
+  }
+  
+  .footer-section h3 {
+    font-size: 18px;
+    margin-bottom: 10px;
+    border-bottom: 2px solid #555;
+    padding-bottom: 5px;
+  }
+  
+  .footer-section ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .footer-section ul li {
+    margin: 5px 0;
+  }
+  
+  .footer-section ul li a {
+    color: #bbb;
+    text-decoration: none;
+    transition: color 0.3s;
+  }
+  
+  .footer-section ul li a:hover {
+    color: orange;
+  }
+  
+  .social-icons {
+    display: flex;
+    gap: 15px;
+    justify-content: center;
+    margin-top: 10px;
+  }
+  
+  .social-icons a {
+    color: #bbb;
+    transition: color 0.3s;
+  }
+  
+  .social-icons a:hover {
+    color: orange;
+  }
+  
+  .footer-bottom {
+    /* margin-top: 10px; */
+    font-size: 14px;
+    color: #bbb;
+  }
+
+  .icon-container {
+    position: relative;
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+  }
+  .cart-count {
+    position: absolute;
+    top: -5px;
+    right: -10px;
+    background-color: rgb(237, 234, 234);
+    color: orange;
+    font-size: 12px;
+    width: 18px;
+    height: 18px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+  }
